@@ -19,19 +19,16 @@
 
 * git clone https://github.com/fabioNog/animekitsu.git
 
-### Installing Dependencies
+### Instalando as Dependencias
 
 * `yarn`
 
-### Running Ember App
+### Para executar o  App
 
 * `yarn start` (default port 4200)
 * `yarn start --port 4201`
 
-## Running Tests
 
-* `yarn test` (tap reporter)
-* `yarn test:ci` (dot reporter)
 
 
 
