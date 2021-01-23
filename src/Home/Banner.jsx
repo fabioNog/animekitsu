@@ -20,7 +20,7 @@ class Banner extends React.PureComponent {
             <h1 key="h2">
               Olá! <b>Seja bem vindo</b>
             </h1>
-            <p key="p">Aqui você encontra os melhor animes</p>
+            <p key="p">Aqui você encontra os melhores animes</p>
             <span key="button">
               <Button
                 type="primary"
