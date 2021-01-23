@@ -15,7 +15,9 @@
 
 ---
 
-## Getting Started
+## Clone o Projeto
+
+* git clone https://github.com/fabioNog/animekitsu.git
 
 ### Installing Dependencies
 
