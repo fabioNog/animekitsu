@@ -1,4 +1,4 @@
-# Kitsu Client
+# ANIME Kitsu 
 [![Crowdin](https://badges.crowdin.net/kitsu-web/localized.svg)](https://crowdin.com/project/kitsu-web)
 ![Test Status](https://github.com/hummingbird-me/kitsu-web/workflows/Kitsu%20Test%20Suite/badge.svg)
 ![Deploy Status](https://github.com/hummingbird-me/kitsu-web/workflows/Kitsu%20Web%20Deployment/badge.svg)
@@ -6,7 +6,7 @@
 [![Test Coverage](https://codeclimate.com/github/hummingbird-me/kitsu-web/badges/coverage.svg)](https://codeclimate.com/github/hummingbird-me/kitsu-web/coverage)
 
 ---
-**<p align="center">This is our client repository. It contains the Ember.js application for Kitsu.<br />Check out the [tools], [mobile], [server] and [api docs] repositories.</p>**
+**<p align="center">Este é o o template Anime Kitsu.<br />Verifique os links [tools], [mobile], [server] e tambem o repositório [api docs].</p>**
 
 [tools]:https://github.com/hummingbird-me/kitsu-tools
 [server]:https://github.com/hummingbird-me/kitsu-server
