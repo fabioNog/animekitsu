@@ -31,20 +31,5 @@
 * `yarn test` (tap reporter)
 * `yarn test:ci` (dot reporter)
 
-## Contributing
 
-Check out the main [repo][tools] for information on setting up a development environment and contributing.
 
-### Translations
-
-We use CrowdIn to handle translations, head on over to [crowdin.com/project/kitsu-web](https://crowdin.com/project/kitsu-web) to suggest changes or add new translations.
-
-Translations use the ICU Message Syntax format. [Read the syntax documentation](https://formatjs.io/docs/icu-syntax/).
-
-## Issues
-
-Looking to create an issue? Open a [bug report](https://kitsu.io/feedback/bugs) or [feature request](https://kitsu.io/feedback/feature-requests) on Kitsu.
-
-## Contributors
-
-[![](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/images/0)](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/links/0)[![](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/images/1)](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/links/1)[![](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/images/2)](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/links/2)[![](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/images/3)](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/links/3)[![](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/images/4)](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/links/4)[![](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/images/5)](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/links/5)[![](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/images/6)](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/links/6)[![](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/images/7)](https://sourcerer.io/fame/wopian/hummingbird-me/kitsu-web/links/7)
