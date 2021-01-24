@@ -34,6 +34,7 @@ export const page2 = [
     url: 'http://www.anijue.com/p/q/j5rxse2a/pages/home/index.html',
     image: 'https://gw.alipayobjects.com/zos/rmsportal/yKHLCeGLgdFoxFXhzFtu.jpg',
   },
+  
 ];
 
 export const page3 = [

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { useState, useEffect }  from 'react';
 import QueueAnim from 'rc-queue-anim';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import QRCode from 'qrcode.react';
@@ -8,38 +8,36 @@ import { page2 } from './data';
 /* Axios */
 import axios from 'axios';
 
-export default class Page2 extends React.Component {
-  state = {
-    persons: []
-  }
-  
-  
-  componentDidMount() {
-    axios.get(`https://kitsu.io/api/edge/anime`)
-      .then(res => {
-        console.log(res.data)
-        const persons = res.data;
-        this.setState({ persons });
-      })
-      
-  }
+const Page2 = () => {
 
-  render() {
-    
-    const children = page2.map((d, i) => {
-      if (i > 2) {
-        return null;
-      }
-      return (
-        <Col key={i} className="col" span={8}>
-          <div className="content-wrapper home-hover">
-            <div className="image" style={{ backgroundImage: `url(${d.image})` }} />
-            <div className="code-wrapper">
-              <h4>Confira</h4>
-            </div>
+  const [posts, setPosts] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [postsPerPage] = useState(10);
+
+  useEffect(() => {
+    const fetchPosts = async () => {
+      setLoading(true);
+      const res = await axios.get(`https://kitsu.io/api/edge/anime`);  
+      console.log(res);
+      setPosts(res.data);
+      setLoading(false);
+    };
+
+    fetchPosts();
+  }, []);
+
+  const children = page2.map((d, i) => {    
+    return (
+      <Col key={i} className="col" span={8}>
+        <div className="content-wrapper home-hover">
+          <div className="image" style={{ backgroundImage: `url(${d.image})` }} />
+          <div className="code-wrapper">
+            <h4>Confira</h4>
           </div>
-        </Col>);
-    });
+        </div>
+      </Col>);
+  });
   return (
     <div id="anime" className="home-layout-wrapper home-case-wrapper">
       <OverPack className="home-layout" playScale={0.4}>
@@ -57,5 +55,7 @@ export default class Page2 extends React.Component {
         </QueueAnim>
       </OverPack>
     </div>);
-  }
 }
+
+
+export default Page2;

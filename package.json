@@ -19,7 +19,8 @@
     "react-bootstrap": "^1.4.3",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.1.1",
-    "react-github-button": "^0.1.11"
+    "react-github-button": "^0.1.11",
+    "react-paginate": "^7.0.0"
   },
   "devDependencies": {
     "atool-build": "^1.0.2",
